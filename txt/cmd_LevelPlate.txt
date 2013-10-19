@@ -1,0 +1,65 @@
+c      1 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Find the 4 knobs on 
+c      2 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 the botton of the   
+c      3 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 platform and tighten
+c      4 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 four or five turns.
+c      5 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 I'm going to move   
+c      6 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 the extruder to     
+c      7 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 various positions   
+c      8 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 for adjustment.
+c      9 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 In each position,   
+c     10 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 we will need to     
+c     11 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 adjust 2 knobs at   
+c     12 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 the same time.
+c     13 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Nozzles are at the  
+c     14 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 right height when   
+c     15 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 you can just slide a
+c     16 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 sheet of paper
+c     17 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 between the nozzle  
+c     18 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 and the platform.   
+c     19 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 Grab a sheet of     
+c     20 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 pape to assist us.
+c     21 :	HOST_CMD_FIND_AXES_MINIMUM 131 4 136 20
+c     22 :	HOST_CMD_SET_POSITION_EXT 0 0 0 0
+c     23 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     24 :	HOST_CMD_QUEUE_POINT_NEW 0 0 2000 0 214285 24 0
+c     25 :	HOST_CMD_FIND_AXES_MAXIMUM 132 3 361 20
+c     26 :	HOST_CMD_SET_POSITION_EXT 12709 7060 2000 0
+c     27 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     28 :	HOST_CMD_QUEUE_POINT_NEW 0 -6966 2000 0 3655675 24 0
+c     29 :	HOST_CMD_QUEUE_POINT_NEW 0 -6967 0 0 214285 24 0
+c     30 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Adjust the front two
+c     31 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 knobs until paper   
+c     32 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 just slides between 
+c     33 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 nozzle and platform
+c     34 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     35 :	HOST_CMD_QUEUE_POINT_NEW 0 -6966 2000 0 214285 24 0
+c     36 :	HOST_CMD_QUEUE_POINT_NEW 0 6778 2000 0 2654545 24 0
+c     37 :	HOST_CMD_QUEUE_POINT_NEW 0 6778 0 0 214285 24 0
+c     38 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Adjust the back two 
+c     39 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 knobs until paper   
+c     40 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 just slides between 
+c     41 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 nozzle and platform
+c     42 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     43 :	HOST_CMD_QUEUE_POINT_NEW 0 6778 2000 0 214285 24 0
+c     44 :	HOST_CMD_QUEUE_POINT_NEW 8473 0 2000 0 2095567 24 0
+c     45 :	HOST_CMD_QUEUE_POINT_NEW 8472 0 0 0 214285 24 0
+c     46 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Adjust the right two
+c     47 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 knobs until paper   
+c     48 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 just slides between 
+c     49 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 nozzle and platform
+c     50 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     51 :	HOST_CMD_QUEUE_POINT_NEW 8473 0 2000 0 214285 24 0
+c     52 :	HOST_CMD_QUEUE_POINT_NEW -8473 0 2000 0 3272727 24 0
+c     53 :	HOST_CMD_QUEUE_POINT_NEW -8472 0 0 0 214285 24 0
+c     54 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Adjust the left two 
+c     55 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 knobs until paper   
+c     56 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 just slides between 
+c     57 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 nozzle and platform
+c     58 :	HOST_CMD_DISPLAY_MESSAGE: 2 0 0 Please wait
+c     59 :	HOST_CMD_QUEUE_POINT_NEW -8473 0 2000 0 214285 24 0
+c     60 :	HOST_CMD_QUEUE_POINT_NEW 0 0 2000 0 1636363 24 0
+c     61 :	HOST_CMD_QUEUE_POINT_NEW 0 0 0 0 214285 24 0
+c     62 :	HOST_CMD_DISPLAY_MESSAGE: 0 0 0 Check that paper    
+c     63 :	HOST_CMD_DISPLAY_MESSAGE: 1 0 0 just slides between 
+c     64 :	HOST_CMD_DISPLAY_MESSAGE: 7 0 0 nozzle and platform
+c     65 :	HOST_CMD_ENABLE_AXES 31
