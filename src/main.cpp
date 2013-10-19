@@ -44,6 +44,7 @@ int main ( int argc, char *argv[] )
 	FILE *fp;
 	uint8_t hasNextByte=1;
 	printf("ok\n");
+	printf("ok\n");
 	circleBufInit(&cmdBuf);
 	if(argc>1)
 		fp=fopen(argv[1],"r");
