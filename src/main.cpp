@@ -89,6 +89,7 @@ int main ( int argc, char *argv[] )
 	}
 	fclose(fp);
 	fclose(fw);
+	printf("finish\n");
 	return 0;
 }				/* ----------  end of function main  ---------- */
 
